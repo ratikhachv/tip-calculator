@@ -1,0 +1,35 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F9FA;
+    border-radius: 8px;
+    padding: 3%;
+    margin-bottom: 10vh;
+    
+}
+input{
+    outline: none;
+    border: 0px ;
+    background-color: transparent;
+    text-align: end;
+    width: 27vw;
+    color: #00474B;
+    font-size: 24px;
+
+}
+p{
+    color: #5E7A7D;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.num-people{
+    margin-top: 10vh;
+}
+.text-over-input{
+    display: flex;
+    justify-content: space-between;
+}
+.zero{
+   color: #E17457
+}

@@ -1,0 +1,37 @@
+.functional{
+   display: flex;
+   background-color: white;
+   padding: 3%;
+   border-radius: 25px;
+   min-width: 64vw;
+   gap: 10%;
+}
+.right-side{
+   width: 50%;
+   background-color: #00474B;
+   padding: 5%;
+   border-radius: 15px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.reset-btn{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 30px;
+   text-align: center;
+   color: #00474B;
+   background: #0D686D;
+   border-radius: 5px;
+   border: 0px;
+}
+.reset-btn:hover{
+   background: #9FE8DF;
+}
+
+#activateReset{
+   background: #26C2AE;
+}
+#activateReset:hover{
+   background: #9FE8DF;
+}

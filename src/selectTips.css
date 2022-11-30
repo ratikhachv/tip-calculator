@@ -1,0 +1,25 @@
+.tip-amounts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5%;
+}
+.tip-amount{
+    width: 30%;
+    padding:5%;
+    margin-bottom: 1%;
+    background-color: #00474B;
+    color: #FFFFFF;
+    font-size: 24px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.tip-amount:hover{
+    background-color: #26C2AE;
+    color: #00474B;
+}
+
+#custom{
+    background-color: #F3F9FA;
+    color: #00474B;
+}

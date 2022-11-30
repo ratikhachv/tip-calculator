@@ -1,0 +1,22 @@
+.per-person{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 15%;
+
+}
+.tip-total{
+    font-size: 1rem;
+    color: white;
+}
+.nums{
+    font-weight: 700;
+    font-size: 48px;
+    color: #26C2AE;
+}
+.person{
+    font-weight: 700;
+    font-size: 13px;
+    color: #7F9D9F;
+}
