@@ -20,3 +20,8 @@
     font-size: 13px;
     color: #7F9D9F;
 }
+@media only screen and (max-width: 680px) {
+    .nums{
+        font-size: 32px;
+    }
+}

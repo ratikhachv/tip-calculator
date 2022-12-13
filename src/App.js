@@ -24,7 +24,7 @@ function App() {
   }
   
   function changeNumOfPeople(e){
-    let number =e.target.value
+    let number =Math.floor(e.target.value)
     setNumberOfPeople(number)
     setNumOfPeopleSelected(true)
   }

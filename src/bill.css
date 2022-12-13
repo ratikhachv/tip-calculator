@@ -1,7 +1,7 @@
 form{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background-color: #F3F9FA;
     border-radius: 8px;
     padding: 3%;
@@ -25,6 +25,9 @@ p{
 }
 .num-people{
     margin-top: 10vh;
+}
+.num-people form{
+    margin-bottom: 0;
 }
 .text-over-input{
     display: flex;

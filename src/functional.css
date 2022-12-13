@@ -9,7 +9,7 @@
 .right-side{
    width: 50%;
    background-color: #00474B;
-   padding: 5%;
+   padding: 3%;
    border-radius: 15px;
    display: flex;
    flex-direction: column;
@@ -35,3 +35,12 @@
 #activateReset:hover{
    background: #9FE8DF;
 }
+
+@media only screen and (max-width: 680px) {
+      .functional{
+         flex-direction: column;
+      }
+      .right-side{
+         width: 100%;
+      }
+ }
